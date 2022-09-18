@@ -1,0 +1,10 @@
+header, 
+footer {
+    display: flex;
+    background-color: darkgrey;
+    padding: 8px;
+}
+
+body {
+    margin: 0;
+}
