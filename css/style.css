@@ -5,6 +5,9 @@ body {
 /* Sets padding on left & right side of entire webpage */
 .header,
 .below-header,
+.images,
+.quote,
+.sign-up
 footer {
     padding-left: 100px;
     padding-right: 100px;
@@ -16,7 +19,7 @@ footer {
     color: white;
 }
 
-/* All header related css */ 
+/* All header CSS */ 
 .header {
     display: flex;
     justify-content: space-between;
@@ -33,5 +36,39 @@ footer {
     padding-bottom: 35px;
 }
 
+/* All main body CSS */
+.images {
+    padding-top: 10px;
+    padding-bottom: 10px;
+} .image-row {
+    display: flex;
+    gap: 10px;
+} .image-with-subtitle {
+    text-align: center;
+}
 
+.quote {
+    text-align: center;
+    background-color: #E5E7EB;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+} #box-padding {
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    border-radius: 50px;
+} .right-sign-up {
+    padding-left: 50px;
+    padding-right: 50px;
+}
