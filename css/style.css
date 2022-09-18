@@ -8,7 +8,7 @@ body {
 .below-header,
 .images,
 .quote,
-.sign-up
+.sign-up,
 footer {
     padding-left: 100px;
     padding-right: 100px;
@@ -20,7 +20,7 @@ footer {
     color: white;
 }
 
-/* All header CSS */ 
+/* Header CSS */ 
 .header {
     display: flex;
     justify-content: space-between;
@@ -37,7 +37,7 @@ footer {
     padding-bottom: 35px;
 }
 
-/* All main body CSS */
+/* Main CSS */
 .images {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -74,3 +74,5 @@ footer {
     padding-left: 50px;
     padding-right: 50px;
 }
+
+/* Footer */
