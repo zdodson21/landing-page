@@ -1,32 +1,37 @@
-header, 
-footer {
-    display: flex;
-    background-color: darkgrey;
-    justify-content: space-between;
-    align-items: center;
+body {
+    margin: 0;
 }
 
-header,
+/* Sets padding on left & right side of entire webpage */
+.header,
 .below-header,
 footer {
     padding-left: 100px;
     padding-right: 100px;
 }
 
-.right-header {
-    display: flex;
-    gap: 10px;
+header, 
+footer {
+    background-color: #1F2937;
+    color: white;
 }
 
+/* All header related css */ 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} .right-header {
+    display: flex;
+    gap: 10px;
+} 
 .below-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 35px;
     padding-bottom: 35px;
-    background-color: darkgrey;
 }
 
-body {
-    margin: 0;
-}
+
+
