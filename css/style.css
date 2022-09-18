@@ -2,7 +2,29 @@ header,
 footer {
     display: flex;
     background-color: darkgrey;
-    padding: 8px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header,
+.below-header,
+footer {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.right-header {
+    display: flex;
+    gap: 10px;
+}
+
+.below-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: darkgrey;
 }
 
 body {
