@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    padding: 0;
 }
 
 /* Sets padding on left & right side of entire webpage */
@@ -42,6 +43,7 @@ footer {
     padding-bottom: 10px;
 } .image-row {
     display: flex;
+    justify-content: center;
     gap: 10px;
 } .image-with-subtitle {
     text-align: center;
